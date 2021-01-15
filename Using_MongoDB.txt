@@ -1,0 +1,18 @@
+$ ./mongo
+MongoDB shell version v4.4.3
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("XXXXXXXXXXXXXXXXXXXXX") }
+MongoDB server version: 4.4.3
+show dbs;
+admin        0.000GB
+config       0.000GB
+local        0.000GB
+
+//////////////////////////////
+*Create a database called 'my_first_db'
+//////////////////////////////
+my_first_db  0.000GB
+use my_first_db
+switched to db my_first_db
+
+
